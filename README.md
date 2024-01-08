@@ -4,4 +4,18 @@
 
 iOS 版のソースコードです。ソースコードは基本的な機能を備えた、Ver.1 まで公開する予定です。
 
+## 技術構成
 
+- SwiftUI
+
+## ソースコード
+
+- [FoodAdditiveScanner-LP](https://github.com/takasqr/FoodAdditiveScanner-LP)
+- [FoodAdditiveScanner-iOS
+](https://github.com/takasqr/FoodAdditiveScanner-iOS)
+- [FoodAdditiveScanner-Android
+](https://github.com/takasqr/FoodAdditiveScanner-Android)
+- [FoodAdditiveScanner-WebApp
+](https://github.com/takasqr/FoodAdditiveScanner-WebApp)
+- [FoodAdditiveScanner-WebAPI
+](https://github.com/takasqr/FoodAdditiveScanner-WebAPI)
