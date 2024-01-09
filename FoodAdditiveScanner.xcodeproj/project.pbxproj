@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E15B8D82B20A9B00090230F /* VideoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15B8D72B20A9B00090230F /* VideoCaptureView.swift */; };
+		7E15B8DA2B21F6040090230F /* VideoScannerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15B8D92B21F6040090230F /* VideoScannerPage.swift */; };
+		7E15B8DC2B21F6580090230F /* IdlingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15B8DB2B21F6570090230F /* IdlingPage.swift */; };
+		7E15B8DE2B21F73D0090230F /* FlatPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15B8DD2B21F73D0090230F /* FlatPrimaryButton.swift */; };
+		7E15B8E02B21FDFE0090230F /* VideoScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15B8DF2B21FDFE0090230F /* VideoScannerViewModel.swift */; };
+		7E15B8E22B234E0A0090230F /* Key.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E15B8E12B234E0A0090230F /* Key.plist */; };
+		7E437CD12B065ABF00A5703D /* ResultSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E437CD02B065ABF00A5703D /* ResultSheet.swift */; };
+		7E480D852B2B2DA1009A3250 /* QAndAPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E480D842B2B2DA1009A3250 /* QAndAPage.swift */; };
+		7E480D872B2B2DB0009A3250 /* HelpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E480D862B2B2DB0009A3250 /* HelpPage.swift */; };
+		7E480D892B2B2E4D009A3250 /* Expander.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E480D882B2B2E4D009A3250 /* Expander.swift */; };
+		7E480D8B2B2B3E4B009A3250 /* AlertRegistrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E480D8A2B2B3E4B009A3250 /* AlertRegistrationPage.swift */; };
+		7E480D8D2B2C86F8009A3250 /* Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E480D8C2B2C86F8009A3250 /* Default.swift */; };
+		7E492D2C2B09FEF200EB0BEF /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E492D2B2B09FEF200EB0BEF /* EntityManager.swift */; };
+		7E492D2E2B0A003300EB0BEF /* FoodAdditiveEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E492D2D2B0A003300EB0BEF /* FoodAdditiveEntity.swift */; };
+		7E492D302B0B995F00EB0BEF /* SystemSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E492D2F2B0B995F00EB0BEF /* SystemSetting.swift */; };
+		7E492D322B0BA21B00EB0BEF /* SwipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E492D312B0BA21B00EB0BEF /* SwipeTabView.swift */; };
+		7E492D342B0BA68C00EB0BEF /* BookPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E492D332B0BA68C00EB0BEF /* BookPage.swift */; };
+		7E492D362B0BA80D00EB0BEF /* FoodAdditiveSelectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E492D352B0BA80D00EB0BEF /* FoodAdditiveSelectList.swift */; };
+		7E492D382B0EE3CD00EB0BEF /* FoodAdditivePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E492D372B0EE3CD00EB0BEF /* FoodAdditivePage.swift */; };
+		7E59A4E22B1F577A00C5CDE6 /* CameraScannerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E59A4E12B1F577A00C5CDE6 /* CameraScannerPage.swift */; };
+		7E59A4E42B1F65C800C5CDE6 /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E59A4E32B1F65C800C5CDE6 /* ScannerViewModel.swift */; };
+		7E59A4E62B1F68F000C5CDE6 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E59A4E52B1F68F000C5CDE6 /* UserSetting.swift */; };
+		7E59A4E82B1F6A1700C5CDE6 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E59A4E72B1F6A1700C5CDE6 /* ScannerView.swift */; };
+		7E59A4EA2B1F6C5100C5CDE6 /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E59A4E92B1F6C5100C5CDE6 /* SettingPage.swift */; };
+		7E6853282B04F5AA007001CA /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6853272B04F5AA007001CA /* CameraPreview.swift */; };
+		7E68532A2B04F5CE007001CA /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6853292B04F5CE007001CA /* CameraView.swift */; };
+		7E68532C2B04F609007001CA /* ImagePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68532B2B04F609007001CA /* ImagePreviewView.swift */; };
+		7E68532E2B04F706007001CA /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68532D2B04F706007001CA /* CameraManager.swift */; };
+		7EA232822B1C525500946F97 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA232812B1C525500946F97 /* TextButton.swift */; };
+		7EA232842B1CB99600946F97 /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA232832B1CB99600946F97 /* Analyzer.swift */; };
+		7EA232872B1CBCCC00946F97 /* AnalyzerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA232862B1CBCCC00946F97 /* AnalyzerTest.swift */; };
+		7EA232892B1E032E00946F97 /* VideoCaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA232882B1E032E00946F97 /* VideoCaptureManager.swift */; };
+		7EA2328B2B1E037900946F97 /* VideoCapturePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2328A2B1E037900946F97 /* VideoCapturePreview.swift */; };
+		7EE90E2D2AED5D1F006BC321 /* FoodAdditive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE90E2C2AED5D1F006BC321 /* FoodAdditive.swift */; };
+		7EE90E2F2AED5FCC006BC321 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE90E2E2AED5FCC006BC321 /* Enum.swift */; };
+		7EE90E3D2AEE4F91006BC321 /* OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE90E3C2AEE4F91006BC321 /* OCR.swift */; };
+		7EE9298C2B2600390094CAE7 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9298B2B2600390094CAE7 /* APIClient.swift */; };
+		7EE9298E2B2601BD0094CAE7 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9298D2B2601BD0094CAE7 /* Key.swift */; };
+		7EE929912B2604620094CAE7 /* ChatGPTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE929902B2604620094CAE7 /* ChatGPTClient.swift */; };
+		7EF1E0C22B1B030700A50A1D /* StringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF1E0C12B1B030700A50A1D /* StringTool.swift */; };
+		7EF97A232AEAA48300B7F8DF /* FoodAdditiveScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97A222AEAA48300B7F8DF /* FoodAdditiveScannerApp.swift */; };
+		7EF97A252AEAA48300B7F8DF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97A242AEAA48300B7F8DF /* Persistence.swift */; };
+		7EF97A282AEAA48300B7F8DF /* FoodAdditiveScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97A262AEAA48300B7F8DF /* FoodAdditiveScanner.xcdatamodeld */; };
+		7EF97A2A2AEAA48300B7F8DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97A292AEAA48300B7F8DF /* ContentView.swift */; };
+		7EF97A2C2AEAA48500B7F8DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF97A2B2AEAA48500B7F8DF /* Assets.xcassets */; };
+		7EF97A302AEAA48500B7F8DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF97A2F2AEAA48500B7F8DF /* Preview Assets.xcassets */; };
+		7EF97A3A2AEAA48500B7F8DF /* FoodAdditiveScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97A392AEAA48500B7F8DF /* FoodAdditiveScannerTests.swift */; };
+		7EF97A442AEAA48500B7F8DF /* FoodAdditiveScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97A432AEAA48500B7F8DF /* FoodAdditiveScannerUITests.swift */; };
+		7EF97A462AEAA48500B7F8DF /* FoodAdditiveScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF97A452AEAA48500B7F8DF /* FoodAdditiveScannerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EF97A362AEAA48500B7F8DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EF97A172AEAA48300B7F8DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF97A1E2AEAA48300B7F8DF;
+			remoteInfo = FoodAdditiveScanner;
+		};
+		7EF97A402AEAA48500B7F8DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EF97A172AEAA48300B7F8DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF97A1E2AEAA48300B7F8DF;
+			remoteInfo = FoodAdditiveScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E15B8D72B20A9B00090230F /* VideoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureView.swift; sourceTree = "<group>"; };
+		7E15B8D92B21F6040090230F /* VideoScannerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoScannerPage.swift; sourceTree = "<group>"; };
+		7E15B8DB2B21F6570090230F /* IdlingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdlingPage.swift; sourceTree = "<group>"; };
+		7E15B8DD2B21F73D0090230F /* FlatPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatPrimaryButton.swift; sourceTree = "<group>"; };
+		7E15B8DF2B21FDFE0090230F /* VideoScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoScannerViewModel.swift; sourceTree = "<group>"; };
+		7E15B8E12B234E0A0090230F /* Key.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Key.plist; sourceTree = "<group>"; };
+		7E437CD02B065ABF00A5703D /* ResultSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSheet.swift; sourceTree = "<group>"; };
+		7E480D842B2B2DA1009A3250 /* QAndAPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAndAPage.swift; sourceTree = "<group>"; };
+		7E480D862B2B2DB0009A3250 /* HelpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPage.swift; sourceTree = "<group>"; };
+		7E480D882B2B2E4D009A3250 /* Expander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expander.swift; sourceTree = "<group>"; };
+		7E480D8A2B2B3E4B009A3250 /* AlertRegistrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertRegistrationPage.swift; sourceTree = "<group>"; };
+		7E480D8C2B2C86F8009A3250 /* Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Default.swift; sourceTree = "<group>"; };
+		7E492D2B2B09FEF200EB0BEF /* EntityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityManager.swift; sourceTree = "<group>"; };
+		7E492D2D2B0A003300EB0BEF /* FoodAdditiveEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAdditiveEntity.swift; sourceTree = "<group>"; };
+		7E492D2F2B0B995F00EB0BEF /* SystemSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSetting.swift; sourceTree = "<group>"; };
+		7E492D312B0BA21B00EB0BEF /* SwipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTabView.swift; sourceTree = "<group>"; };
+		7E492D332B0BA68C00EB0BEF /* BookPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPage.swift; sourceTree = "<group>"; };
+		7E492D352B0BA80D00EB0BEF /* FoodAdditiveSelectList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAdditiveSelectList.swift; sourceTree = "<group>"; };
+		7E492D372B0EE3CD00EB0BEF /* FoodAdditivePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAdditivePage.swift; sourceTree = "<group>"; };
+		7E59A4E12B1F577A00C5CDE6 /* CameraScannerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScannerPage.swift; sourceTree = "<group>"; };
+		7E59A4E32B1F65C800C5CDE6 /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		7E59A4E52B1F68F000C5CDE6 /* UserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		7E59A4E72B1F6A1700C5CDE6 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		7E59A4E92B1F6C5100C5CDE6 /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
+		7E6853272B04F5AA007001CA /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		7E6853292B04F5CE007001CA /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7E68532B2B04F609007001CA /* ImagePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewView.swift; sourceTree = "<group>"; };
+		7E68532D2B04F706007001CA /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		7EA232812B1C525500946F97 /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		7EA232832B1CB99600946F97 /* Analyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analyzer.swift; sourceTree = "<group>"; };
+		7EA232862B1CBCCC00946F97 /* AnalyzerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzerTest.swift; sourceTree = "<group>"; };
+		7EA232882B1E032E00946F97 /* VideoCaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureManager.swift; sourceTree = "<group>"; };
+		7EA2328A2B1E037900946F97 /* VideoCapturePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapturePreview.swift; sourceTree = "<group>"; };
+		7EE90E262AECE1A7006BC321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7EE90E2C2AED5D1F006BC321 /* FoodAdditive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAdditive.swift; sourceTree = "<group>"; };
+		7EE90E2E2AED5FCC006BC321 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		7EE90E3C2AEE4F91006BC321 /* OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR.swift; sourceTree = "<group>"; };
+		7EE9298B2B2600390094CAE7 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		7EE9298D2B2601BD0094CAE7 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		7EE929902B2604620094CAE7 /* ChatGPTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTClient.swift; sourceTree = "<group>"; };
+		7EF1E0BE2B176C8F00A50A1D /* FoodAdditiveScanner 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FoodAdditiveScanner 2.xcdatamodel"; sourceTree = "<group>"; };
+		7EF1E0C12B1B030700A50A1D /* StringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTool.swift; sourceTree = "<group>"; };
+		7EF97A1F2AEAA48300B7F8DF /* FoodAdditiveScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodAdditiveScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF97A222AEAA48300B7F8DF /* FoodAdditiveScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAdditiveScannerApp.swift; sourceTree = "<group>"; };
+		7EF97A242AEAA48300B7F8DF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7EF97A272AEAA48300B7F8DF /* FoodAdditiveScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodAdditiveScanner.xcdatamodel; sourceTree = "<group>"; };
+		7EF97A292AEAA48300B7F8DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EF97A2B2AEAA48500B7F8DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EF97A2D2AEAA48500B7F8DF /* FoodAdditiveScanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodAdditiveScanner.entitlements; sourceTree = "<group>"; };
+		7EF97A2F2AEAA48500B7F8DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7EF97A352AEAA48500B7F8DF /* FoodAdditiveScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodAdditiveScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF97A392AEAA48500B7F8DF /* FoodAdditiveScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAdditiveScannerTests.swift; sourceTree = "<group>"; };
+		7EF97A3F2AEAA48500B7F8DF /* FoodAdditiveScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodAdditiveScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF97A432AEAA48500B7F8DF /* FoodAdditiveScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAdditiveScannerUITests.swift; sourceTree = "<group>"; };
+		7EF97A452AEAA48500B7F8DF /* FoodAdditiveScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAdditiveScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EF97A1C2AEAA48300B7F8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF97A322AEAA48500B7F8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF97A3C2AEAA48500B7F8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E492D292B09FE6900EB0BEF /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				7EF97A242AEAA48300B7F8DF /* Persistence.swift */,
+				7E492D2A2B09FEB500EB0BEF /* Entity */,
+				7E492D2B2B09FEF200EB0BEF /* EntityManager.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		7E492D2A2B09FEB500EB0BEF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7E492D2D2B0A003300EB0BEF /* FoodAdditiveEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7EA232852B1CBCA800946F97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EA232862B1CBCCC00946F97 /* AnalyzerTest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7EE90E2A2AED5CE1006BC321 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E492D292B09FE6900EB0BEF /* DB */,
+				7EE90E2B2AED5CED006BC321 /* DataModel */,
+				7EE90E2E2AED5FCC006BC321 /* Enum.swift */,
+				7EE90E3C2AEE4F91006BC321 /* OCR.swift */,
+				7EE9298F2B2604530094CAE7 /* API */,
+				7EE9298D2B2601BD0094CAE7 /* Key.swift */,
+				7E492D2F2B0B995F00EB0BEF /* SystemSetting.swift */,
+				7EA232832B1CB99600946F97 /* Analyzer.swift */,
+				7E59A4E52B1F68F000C5CDE6 /* UserSetting.swift */,
+				7E480D8C2B2C86F8009A3250 /* Default.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7EE90E2B2AED5CED006BC321 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				7EE90E2C2AED5D1F006BC321 /* FoodAdditive.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		7EE90E312AED61F9006BC321 /* ViewModeel */ = {
+			isa = PBXGroup;
+			children = (
+				7E59A4E32B1F65C800C5CDE6 /* ScannerViewModel.swift */,
+				7E15B8DF2B21FDFE0090230F /* VideoScannerViewModel.swift */,
+				7E68532D2B04F706007001CA /* CameraManager.swift */,
+				7EA232882B1E032E00946F97 /* VideoCaptureManager.swift */,
+			);
+			path = ViewModeel;
+			sourceTree = "<group>";
+		};
+		7EE90E322AED6208006BC321 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EE90E352AED6343006BC321 /* Basic */,
+				7EE90E342AED6324006BC321 /* Component */,
+				7EE90E332AED62D7006BC321 /* Page */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EE90E332AED62D7006BC321 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				7E492D332B0BA68C00EB0BEF /* BookPage.swift */,
+				7E59A4E92B1F6C5100C5CDE6 /* SettingPage.swift */,
+				7E480D842B2B2DA1009A3250 /* QAndAPage.swift */,
+				7E480D862B2B2DB0009A3250 /* HelpPage.swift */,
+				7E480D8A2B2B3E4B009A3250 /* AlertRegistrationPage.swift */,
+				7E492D372B0EE3CD00EB0BEF /* FoodAdditivePage.swift */,
+				7E15B8DB2B21F6570090230F /* IdlingPage.swift */,
+				7E15B8D92B21F6040090230F /* VideoScannerPage.swift */,
+				7E59A4E12B1F577A00C5CDE6 /* CameraScannerPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		7EE90E342AED6324006BC321 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7E437CD02B065ABF00A5703D /* ResultSheet.swift */,
+				7E59A4E72B1F6A1700C5CDE6 /* ScannerView.swift */,
+				7E492D352B0BA80D00EB0BEF /* FoodAdditiveSelectList.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		7EE90E352AED6343006BC321 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				7E6853272B04F5AA007001CA /* CameraPreview.swift */,
+				7E480D882B2B2E4D009A3250 /* Expander.swift */,
+				7E15B8D72B20A9B00090230F /* VideoCaptureView.swift */,
+				7EA232812B1C525500946F97 /* TextButton.swift */,
+				7E68532B2B04F609007001CA /* ImagePreviewView.swift */,
+				7E15B8DD2B21F73D0090230F /* FlatPrimaryButton.swift */,
+				7E6853292B04F5CE007001CA /* CameraView.swift */,
+				7E492D312B0BA21B00EB0BEF /* SwipeTabView.swift */,
+				7EA2328A2B1E037900946F97 /* VideoCapturePreview.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		7EE9298F2B2604530094CAE7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7EE9298B2B2600390094CAE7 /* APIClient.swift */,
+				7EE929902B2604620094CAE7 /* ChatGPTClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7EF1E0BF2B1B02CD00A50A1D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7EF1E0C02B1B02EA00A50A1D /* Tool */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7EF1E0C02B1B02EA00A50A1D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7EF1E0C12B1B030700A50A1D /* StringTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7EF97A162AEAA48300B7F8DF = {
+			isa = PBXGroup;
+			children = (
+				7EF97A212AEAA48300B7F8DF /* FoodAdditiveScanner */,
+				7EF97A382AEAA48500B7F8DF /* FoodAdditiveScannerTests */,
+				7EF97A422AEAA48500B7F8DF /* FoodAdditiveScannerUITests */,
+				7EF97A202AEAA48300B7F8DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EF97A202AEAA48300B7F8DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EF97A1F2AEAA48300B7F8DF /* FoodAdditiveScanner.app */,
+				7EF97A352AEAA48500B7F8DF /* FoodAdditiveScannerTests.xctest */,
+				7EF97A3F2AEAA48500B7F8DF /* FoodAdditiveScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EF97A212AEAA48300B7F8DF /* FoodAdditiveScanner */ = {
+			isa = PBXGroup;
+			children = (
+				7EE90E262AECE1A7006BC321 /* Info.plist */,
+				7EF97A222AEAA48300B7F8DF /* FoodAdditiveScannerApp.swift */,
+				7EF1E0BF2B1B02CD00A50A1D /* Common */,
+				7EE90E2A2AED5CE1006BC321 /* Model */,
+				7EE90E312AED61F9006BC321 /* ViewModeel */,
+				7EE90E322AED6208006BC321 /* View */,
+				7EF97A292AEAA48300B7F8DF /* ContentView.swift */,
+				7EF97A2B2AEAA48500B7F8DF /* Assets.xcassets */,
+				7EF97A2D2AEAA48500B7F8DF /* FoodAdditiveScanner.entitlements */,
+				7EF97A262AEAA48300B7F8DF /* FoodAdditiveScanner.xcdatamodeld */,
+				7EF97A2E2AEAA48500B7F8DF /* Preview Content */,
+				7E15B8E12B234E0A0090230F /* Key.plist */,
+			);
+			path = FoodAdditiveScanner;
+			sourceTree = "<group>";
+		};
+		7EF97A2E2AEAA48500B7F8DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7EF97A2F2AEAA48500B7F8DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EF97A382AEAA48500B7F8DF /* FoodAdditiveScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EA232852B1CBCA800946F97 /* Model */,
+				7EF97A392AEAA48500B7F8DF /* FoodAdditiveScannerTests.swift */,
+			);
+			path = FoodAdditiveScannerTests;
+			sourceTree = "<group>";
+		};
+		7EF97A422AEAA48500B7F8DF /* FoodAdditiveScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EF97A432AEAA48500B7F8DF /* FoodAdditiveScannerUITests.swift */,
+				7EF97A452AEAA48500B7F8DF /* FoodAdditiveScannerUITestsLaunchTests.swift */,
+			);
+			path = FoodAdditiveScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EF97A1E2AEAA48300B7F8DF /* FoodAdditiveScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF97A492AEAA48500B7F8DF /* Build configuration list for PBXNativeTarget "FoodAdditiveScanner" */;
+			buildPhases = (
+				7EF97A1B2AEAA48300B7F8DF /* Sources */,
+				7EF97A1C2AEAA48300B7F8DF /* Frameworks */,
+				7EF97A1D2AEAA48300B7F8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodAdditiveScanner;
+			productName = FoodAdditiveScanner;
+			productReference = 7EF97A1F2AEAA48300B7F8DF /* FoodAdditiveScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EF97A342AEAA48500B7F8DF /* FoodAdditiveScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF97A4C2AEAA48500B7F8DF /* Build configuration list for PBXNativeTarget "FoodAdditiveScannerTests" */;
+			buildPhases = (
+				7EF97A312AEAA48500B7F8DF /* Sources */,
+				7EF97A322AEAA48500B7F8DF /* Frameworks */,
+				7EF97A332AEAA48500B7F8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EF97A372AEAA48500B7F8DF /* PBXTargetDependency */,
+			);
+			name = FoodAdditiveScannerTests;
+			productName = FoodAdditiveScannerTests;
+			productReference = 7EF97A352AEAA48500B7F8DF /* FoodAdditiveScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EF97A3E2AEAA48500B7F8DF /* FoodAdditiveScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF97A4F2AEAA48500B7F8DF /* Build configuration list for PBXNativeTarget "FoodAdditiveScannerUITests" */;
+			buildPhases = (
+				7EF97A3B2AEAA48500B7F8DF /* Sources */,
+				7EF97A3C2AEAA48500B7F8DF /* Frameworks */,
+				7EF97A3D2AEAA48500B7F8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EF97A412AEAA48500B7F8DF /* PBXTargetDependency */,
+			);
+			name = FoodAdditiveScannerUITests;
+			productName = FoodAdditiveScannerUITests;
+			productReference = 7EF97A3F2AEAA48500B7F8DF /* FoodAdditiveScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EF97A172AEAA48300B7F8DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7EF97A1E2AEAA48300B7F8DF = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					7EF97A342AEAA48500B7F8DF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 7EF97A1E2AEAA48300B7F8DF;
+					};
+					7EF97A3E2AEAA48500B7F8DF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 7EF97A1E2AEAA48300B7F8DF;
+					};
+				};
+			};
+			buildConfigurationList = 7EF97A1A2AEAA48300B7F8DF /* Build configuration list for PBXProject "FoodAdditiveScanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EF97A162AEAA48300B7F8DF;
+			productRefGroup = 7EF97A202AEAA48300B7F8DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EF97A1E2AEAA48300B7F8DF /* FoodAdditiveScanner */,
+				7EF97A342AEAA48500B7F8DF /* FoodAdditiveScannerTests */,
+				7EF97A3E2AEAA48500B7F8DF /* FoodAdditiveScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EF97A1D2AEAA48300B7F8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF97A302AEAA48500B7F8DF /* Preview Assets.xcassets in Resources */,
+				7EF97A2C2AEAA48500B7F8DF /* Assets.xcassets in Resources */,
+				7E15B8E22B234E0A0090230F /* Key.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF97A332AEAA48500B7F8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF97A3D2AEAA48500B7F8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EF97A1B2AEAA48300B7F8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E480D892B2B2E4D009A3250 /* Expander.swift in Sources */,
+				7E492D2E2B0A003300EB0BEF /* FoodAdditiveEntity.swift in Sources */,
+				7E15B8DA2B21F6040090230F /* VideoScannerPage.swift in Sources */,
+				7EF97A232AEAA48300B7F8DF /* FoodAdditiveScannerApp.swift in Sources */,
+				7EF97A252AEAA48300B7F8DF /* Persistence.swift in Sources */,
+				7E59A4E42B1F65C800C5CDE6 /* ScannerViewModel.swift in Sources */,
+				7E480D872B2B2DB0009A3250 /* HelpPage.swift in Sources */,
+				7EE929912B2604620094CAE7 /* ChatGPTClient.swift in Sources */,
+				7EE90E2F2AED5FCC006BC321 /* Enum.swift in Sources */,
+				7E59A4E82B1F6A1700C5CDE6 /* ScannerView.swift in Sources */,
+				7EA232892B1E032E00946F97 /* VideoCaptureManager.swift in Sources */,
+				7EE9298C2B2600390094CAE7 /* APIClient.swift in Sources */,
+				7EF1E0C22B1B030700A50A1D /* StringTool.swift in Sources */,
+				7E492D302B0B995F00EB0BEF /* SystemSetting.swift in Sources */,
+				7E68532A2B04F5CE007001CA /* CameraView.swift in Sources */,
+				7E59A4E62B1F68F000C5CDE6 /* UserSetting.swift in Sources */,
+				7E437CD12B065ABF00A5703D /* ResultSheet.swift in Sources */,
+				7E492D322B0BA21B00EB0BEF /* SwipeTabView.swift in Sources */,
+				7EA232842B1CB99600946F97 /* Analyzer.swift in Sources */,
+				7E480D8B2B2B3E4B009A3250 /* AlertRegistrationPage.swift in Sources */,
+				7EA232822B1C525500946F97 /* TextButton.swift in Sources */,
+				7E15B8D82B20A9B00090230F /* VideoCaptureView.swift in Sources */,
+				7EE90E3D2AEE4F91006BC321 /* OCR.swift in Sources */,
+				7E6853282B04F5AA007001CA /* CameraPreview.swift in Sources */,
+				7E59A4E22B1F577A00C5CDE6 /* CameraScannerPage.swift in Sources */,
+				7E492D2C2B09FEF200EB0BEF /* EntityManager.swift in Sources */,
+				7EA2328B2B1E037900946F97 /* VideoCapturePreview.swift in Sources */,
+				7E492D382B0EE3CD00EB0BEF /* FoodAdditivePage.swift in Sources */,
+				7E15B8E02B21FDFE0090230F /* VideoScannerViewModel.swift in Sources */,
+				7E68532E2B04F706007001CA /* CameraManager.swift in Sources */,
+				7EE90E2D2AED5D1F006BC321 /* FoodAdditive.swift in Sources */,
+				7E480D852B2B2DA1009A3250 /* QAndAPage.swift in Sources */,
+				7EF97A2A2AEAA48300B7F8DF /* ContentView.swift in Sources */,
+				7EF97A282AEAA48300B7F8DF /* FoodAdditiveScanner.xcdatamodeld in Sources */,
+				7EE9298E2B2601BD0094CAE7 /* Key.swift in Sources */,
+				7E59A4EA2B1F6C5100C5CDE6 /* SettingPage.swift in Sources */,
+				7E492D362B0BA80D00EB0BEF /* FoodAdditiveSelectList.swift in Sources */,
+				7E480D8D2B2C86F8009A3250 /* Default.swift in Sources */,
+				7E68532C2B04F609007001CA /* ImagePreviewView.swift in Sources */,
+				7E15B8DE2B21F73D0090230F /* FlatPrimaryButton.swift in Sources */,
+				7E492D342B0BA68C00EB0BEF /* BookPage.swift in Sources */,
+				7E15B8DC2B21F6580090230F /* IdlingPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF97A312AEAA48500B7F8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF97A3A2AEAA48500B7F8DF /* FoodAdditiveScannerTests.swift in Sources */,
+				7EA232872B1CBCCC00946F97 /* AnalyzerTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF97A3B2AEAA48500B7F8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF97A442AEAA48500B7F8DF /* FoodAdditiveScannerUITests.swift in Sources */,
+				7EF97A462AEAA48500B7F8DF /* FoodAdditiveScannerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EF97A372AEAA48500B7F8DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EF97A1E2AEAA48300B7F8DF /* FoodAdditiveScanner */;
+			targetProxy = 7EF97A362AEAA48500B7F8DF /* PBXContainerItemProxy */;
+		};
+		7EF97A412AEAA48500B7F8DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EF97A1E2AEAA48300B7F8DF /* FoodAdditiveScanner */;
+			targetProxy = 7EF97A402AEAA48500B7F8DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7EF97A472AEAA48500B7F8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EF97A482AEAA48500B7F8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7EF97A4A2AEAA48500B7F8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FoodAdditiveScanner/FoodAdditiveScanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodAdditiveScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = VZADP96D8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodAdditiveScanner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "添加物スキャナー";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hirameki.FoodAdditiveScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7EF97A4B2AEAA48500B7F8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FoodAdditiveScanner/FoodAdditiveScanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodAdditiveScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = VZADP96D8Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodAdditiveScanner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "添加物スキャナー";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hirameki.FoodAdditiveScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7EF97A4D2AEAA48500B7F8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZADP96D8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hirameki.FoodAdditiveScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodAdditiveScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodAdditiveScanner";
+			};
+			name = Debug;
+		};
+		7EF97A4E2AEAA48500B7F8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZADP96D8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hirameki.FoodAdditiveScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodAdditiveScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodAdditiveScanner";
+			};
+			name = Release;
+		};
+		7EF97A502AEAA48500B7F8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZADP96D8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hirameki.FoodAdditiveScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodAdditiveScanner;
+			};
+			name = Debug;
+		};
+		7EF97A512AEAA48500B7F8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZADP96D8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.hirameki.FoodAdditiveScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodAdditiveScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EF97A1A2AEAA48300B7F8DF /* Build configuration list for PBXProject "FoodAdditiveScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF97A472AEAA48500B7F8DF /* Debug */,
+				7EF97A482AEAA48500B7F8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EF97A492AEAA48500B7F8DF /* Build configuration list for PBXNativeTarget "FoodAdditiveScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF97A4A2AEAA48500B7F8DF /* Debug */,
+				7EF97A4B2AEAA48500B7F8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EF97A4C2AEAA48500B7F8DF /* Build configuration list for PBXNativeTarget "FoodAdditiveScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF97A4D2AEAA48500B7F8DF /* Debug */,
+				7EF97A4E2AEAA48500B7F8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EF97A4F2AEAA48500B7F8DF /* Build configuration list for PBXNativeTarget "FoodAdditiveScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF97A502AEAA48500B7F8DF /* Debug */,
+				7EF97A512AEAA48500B7F8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7EF97A262AEAA48300B7F8DF /* FoodAdditiveScanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7EF1E0BE2B176C8F00A50A1D /* FoodAdditiveScanner 2.xcdatamodel */,
+				7EF97A272AEAA48300B7F8DF /* FoodAdditiveScanner.xcdatamodel */,
+			);
+			currentVersion = 7EF1E0BE2B176C8F00A50A1D /* FoodAdditiveScanner 2.xcdatamodel */;
+			path = FoodAdditiveScanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7EF97A172AEAA48300B7F8DF /* Project object */;
+}
